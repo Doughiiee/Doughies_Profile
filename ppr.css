@@ -1,1 +1,16 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #9fb7d6;
+  padding: 12px;
+  width: 300px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+}
+
+button {
+  background: #e1ecf9;
+  border: 1px solid #7aa1d2;
+  padding: 4px 10px;
+  cursor: pointer;
+}
 
