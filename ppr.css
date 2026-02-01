@@ -1,6 +1,113 @@
 body {
-  background: black;
+  margin: 0;
+  background: #dfe7f2;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+  color: #000;
+}
+
+/* HEADER */
+#header {
+  background: #0072c6;
   color: white;
-  font-family: Arial, sans-serif;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-left {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-right a {
+  color: white;
+  text-decoration: none;
+  margin-left: 14px;
+}
+
+/* GREETING BAR */
+#greeting-bar {
+  background: #ffffff;
+  border-bottom: 1px solid #9fb7d6;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#greeting-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.small-avatar {
+  width: 48px;
+  height: 48px;
+  background: #cfcfcf;
+}
+
+.subtext {
+  font-size: 12px;
+  color: #555;
+}
+
+/* TABS */
+#greeting-right {
+  display: flex;
+  gap: 6px;
+}
+
+.tab {
+  padding: 6px 10px;
+  background: #e6f0fa;
+  border: 1px solid #9fb7d6;
+  font-size: 12px;
+}
+
+/* PAGE LAYOUT */
+#page {
+  width: 980px;
+  margin: 16px auto;
+  display: flex;
+  gap: 12px;
+}
+
+/* CONTENT */
+#content {
+  flex: 1;
+}
+
+.section {
+  background: white;
+  border: 1px solid #9fb7d6;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  background: #f0f6fd;
+  padding: 6px 8px;
+  font-weight: bold;
+  border-bottom: 1px solid #9fb7d6;
+}
+
+.section-body {
+  padding: 20px;
+  min-height: 120px;
+}
+
+/* SIDEBAR */
+#sidebar {
+  width: 200px;
+}
+
+.sidebar-box {
+  background: white;
+  border: 1px solid #9fb7d6;
+  padding: 10px;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
